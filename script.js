@@ -1,8 +1,4 @@
 
-// The total number of months included in the dataset.
-  // Count up how many things are in the array
-  // array.length
-  // Need a variable to store the value of array.length
 
 // The net total amount of Profit / Losses over the entire period.
   // Adding up the money
@@ -134,4 +130,15 @@ let finances = [
     ['Feb-2017', 671099]
     ];
     
+// console log Financial Analysis
+console.log("Financial Analysis")
+console.log("----------------")
 
+
+// The total number of months included in the dataset.
+  // Count up how many things are in the array
+  // array.length
+  // Need a variable to store the value of array.length
+
+  let totalMonths = finances.length;
+  console.log("Total Months: "+ totalMonths)
