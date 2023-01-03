@@ -1,11 +1,4 @@
 
-
-
-
-// The average of the changes in Profit / Losses over the entire period.
-// You will need to track what the total change in profits are from month to month and then find the average.
-// (Total / Number of months)
-
 // The greatest increase in profits(date and amount) over the entire period.
 
 // The greatest decrease in losses(date and amount) over the entire period.
@@ -153,3 +146,22 @@ for (let i = 0; i < totalMonths; i++) {
     
 }
 console.log("Total: $" +netTotal)
+
+// The average of the changes in Profit / Losses over the entire period.
+//need to track what the total change in profits are from month to month and then find the average
+// (Total / Number of months)
+// creates new arrays and decrementing the dataset
+
+let changedArr =[];
+let changedDate=[];
+
+for (let i = finances.length - 1; i > 0; i--) {
+    const [date, amount] = finances[i];
+
+    changedArr.push(amount);
+    changedDate.push(date);
+    }
+
+
+
+console.log(changedArr, changedDate)
