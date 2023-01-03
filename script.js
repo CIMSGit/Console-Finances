@@ -1,11 +1,6 @@
 
 
-// The net total amount of Profit / Losses over the entire period.
-  // Adding up the money
-  // Keep a rolling total
-  // Need a variable to store the rolling total
-  // for loop to iterate over the array
-    // Inside that for loop, access position 1 of each array element to get the numbers
+
 
 // The average of the changes in Profit / Losses over the entire period.
 // You will need to track what the total change in profits are from month to month and then find the average.
@@ -142,3 +137,19 @@ console.log("----------------")
 
   let totalMonths = finances.length;
   console.log("Total Months: "+ totalMonths)
+
+  // The net total amount of Profit / Losses over the entire period.
+  // Adding up the money
+  // Keep a rolling total
+  // Need a variable to store the rolling total
+  // for loop to iterate over the array
+    // Inside that for loop, access position 1 of each array element to get the numbers
+
+let netTotal = 0; 
+for (let i = 0; i < totalMonths; i++) {
+    const [date, amount] = finances[i];
+    // sum up the amount
+    netTotal +=amount;
+    
+}
+console.log("Total: $" +netTotal)
