@@ -2,7 +2,7 @@
 
 ## Description 
 
-Using :JavaScript.  You'll get to see my new skills. 
+This activity presents a real-world situation in which my newfound JavaScript skills will come in handy.I am tasked with creating code for analyzing the financial records of a company. I have been provided with a financial dataset in the starter file.
 <hr>
 
 
