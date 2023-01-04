@@ -1,17 +1,3 @@
-
-// The greatest increase in profits(date and amount) over the entire period.
-
-// The greatest decrease in losses(date and amount) over the entire period.
-
-  
-    // Need a variable to store greatest amount of change (+)
-    // Need a variable to store greatest amount of change (-)
-    // Each iteration, compare the difference to the previous difference
-    // If it's higher than what's already stored in greatest-profit variable, reassign that variable to equal finances[i]
-      // greatest[0] = finances[i][0]
-      // greatest[1] = changeArr[i-1]
-    // If it's lower than what's already stored in greatest-loss variable, reassign that variable to equal finances[i]
-
 let finances = [
     ['Jan-2010', 867884],
     ['Feb-2010', 984655],
@@ -164,4 +150,22 @@ let average = sumDiff/difference.length;
  const result1 =average.toFixed(2);
     console.log("Average Change: "+result1+ " this DOES NOT INCLUDE the first month!")
 
-    
+
+let minNumber = Math.min(...difference);
+let maxNumber = Math.max(...difference);
+// Finds the location of min and max values tests and using for final results to display
+    // console.log(difference.indexOf(minNumber));
+    // console.log(difference.indexOf(maxNumber));
+
+// console.log(changedDate[41])
+// console.log(changedDate[60])
+
+
+
+
+
+console.log("Greatest Increase: "+(changedDate[60])+" $"+ maxNumber+" "+"(current month - previous month)");
+console.log("Greatest Decrease: "+(changedDate[41])+" $"+ minNumber+" "+"(current month - previous month)");
+
+
+
