@@ -12,7 +12,6 @@ Using :JavaScript.  You'll get to see my new skills.
 
 ## Installation
 + No installation required.
-+ Can be used on any general browser. 
 <hr>
 
 ## Usage 
