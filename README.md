@@ -9,9 +9,6 @@ This activity presents a real-world situation in which my newfound JavaScript sk
 ## Resources:
 
 * [JavaScript-MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-
-## Installation
-+ No installation required.
 <hr>
 
 ## Usage 
